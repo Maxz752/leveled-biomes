@@ -1,9 +1,11 @@
-# Fabric Example Mod
+**Leveled Biomes**
 
-## Setup
+This plugin gives you the ability to stregthen/weaken mobs in any biomes.
+  - Requires Fabric API.
+  - *(IMPORTANT) This mod does nothing unless you configure it.*
+  - Highly configurable in yaml file.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+**Features**
+  - Randomize mob strength in each biome.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+@@**This mod is yet to be developed**@@
