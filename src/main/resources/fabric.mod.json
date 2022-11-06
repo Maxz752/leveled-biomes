@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "leveledbiomes",
+  "version": "${version}",
+
+  "name": "Leveled Biomes",
+  "description": "This mod can let you configure mob strength per biome.",
+  "authors": [
+    "Auramass"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/LeveledBiomesIcon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "one.cataclysm.leveledbiomes.LeveledBiomesKt::onInitialize"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "one.cataclysm.leveledbiomes.LeveledBiomesClientKt::onInitializeClient"
+      }
+    ]
+  },
+  "mixins": [
+    "leveledbiomes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.8.5+kotlin.1.7.20",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
