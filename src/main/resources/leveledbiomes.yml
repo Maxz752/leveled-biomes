@@ -1,0 +1,15 @@
+multipliers:
+  biomesDifficultyMultipliers:
+    'TAIGA': 1.5
+    'PLAINS': 1
+    'MOUNTAINS': 2.3
+
+  healthMultiplier: 2
+  damageMultiplier: 1.3
+  speedPerEntityMultipliers:
+    'ZOMBIE': 1.5
+    'CREEPER': 2
+
+features:
+  perEntityRandomDifficulty: true
+  randomnessRange: 30
